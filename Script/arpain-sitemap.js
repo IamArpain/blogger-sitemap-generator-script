@@ -8,7 +8,7 @@
 !function(a,b){
 	var c=(new Date).getTime(),
 	d={
-blogUrl: "/", // Blog URL
+blogUrl: "/", // Blog URL Place your Blog Url to get Post Data without / at end of URL Example: https://www.technicalarp.com/
 containerId: "arpian-sitemap", // Container ID
 activeTab: 1, // The default active tab index (default: the first tab)
 showDates: false, // `true` to show the post date
@@ -17,7 +17,7 @@ numChars: 200, // Number of summary chars
 showThumbnails: false, // `true` to show the posts thumbnails (Not recommended)
 thumbSize: 40, // Thumbnail size
 noThumb: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC", // A "no thumbnail" URL
-monthNames: [ // Array of month names
+monthNames: [ // Array of month names you can use another Language Month If your blog is in other Language then English
 "January",
 "February",
 "March",
@@ -33,7 +33,7 @@ monthNames: [ // Array of month names
 ],
 newTabLink: true, // Open link in new window?
 maxResults: 999, // Maximum post results 99999
-preload: 0, // Load the feed after 0 seconds (option => time in milliseconds || "onload")
+cpreload: 0, // Load the feed after 0 seconds (option => time in milliseconds || "onload")
 sortAlphabetically: false, // `false` to sort posts by published date & true for sorting Alphabetically
 showNew: 7, // `false` to hide the "New!" mark in most recent posts, or define how many recent posts are to be marked
 newText: ' &ndash; <em style="color:red;">New!</em>' // HTML for the "New!" text
